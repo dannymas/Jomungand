@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="hash">
+      <UniqueIdentifier>{326902b3-a9a1-48b4-8084-30fb956cdb95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assembly">
+      <UniqueIdentifier>{02eb7da4-a43f-4b67-826d-2cdf66e30ef2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="hash.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="api.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="syscalls.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="spoof.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="kraken.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="instance.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="loaddll.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="hwbp.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="rc4.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ntdll.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="hash.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="hash_k32.h">
+      <Filter>hash</Filter>
+    </ClInclude>
+    <ClInclude Include="hash_ntdll.h">
+      <Filter>hash</Filter>
+    </ClInclude>
+    <ClInclude Include="api.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="syscalls.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="spoof.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="kraken.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="instance.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="loaddll.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="hwbp.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="rc4.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="syscalls_stub.asm">
+      <Filter>assembly</Filter>
+    </MASM>
+    <MASM Include="spoof_stub.asm">
+      <Filter>assembly</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
